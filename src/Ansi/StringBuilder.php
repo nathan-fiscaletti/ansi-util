@@ -9,16 +9,16 @@ class StringBuilder
 {
     /**
      * The current string.
-     * 
+     *
      * @var string
      */
     private $string;
 
     /**
      * Set the bold flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function bold($value = '')
@@ -31,9 +31,9 @@ class StringBuilder
 
     /**
      * Set the dim flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function dim($value = '')
@@ -46,9 +46,9 @@ class StringBuilder
 
     /**
      * Set the underline flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function underline($value = '')
@@ -61,9 +61,9 @@ class StringBuilder
 
     /**
      * Set the blink flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function blink($value = '')
@@ -76,9 +76,9 @@ class StringBuilder
 
     /**
      * Invert the current colors.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function invertColor($value = '')
@@ -91,9 +91,9 @@ class StringBuilder
 
     /**
      * Set the hide flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function hide($value = '')
@@ -106,9 +106,9 @@ class StringBuilder
 
     /**
      * Reset to default.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function reset($value = '')
@@ -121,9 +121,9 @@ class StringBuilder
 
     /**
      * Reset the bold flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function resetBold($value = '')
@@ -136,9 +136,9 @@ class StringBuilder
 
     /**
      * Reset the dim flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function resetDim($value = '')
@@ -151,9 +151,9 @@ class StringBuilder
 
     /**
      * Reset the underline flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function resetUnderline($value = '')
@@ -166,9 +166,9 @@ class StringBuilder
 
     /**
      * Reset the blank flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function resetBlink($value = '')
@@ -181,9 +181,9 @@ class StringBuilder
 
     /**
      * Reset the invert colors flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function resetInvertColors($value = '')
@@ -196,9 +196,9 @@ class StringBuilder
 
     /**
      * Reset the hidden flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function resetHidden($value = '')
@@ -211,9 +211,9 @@ class StringBuilder
 
     /**
      * Set a 16-bit color.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function color16(int $color, $value = '')
@@ -226,9 +226,9 @@ class StringBuilder
 
     /**
      * Set a 256-bit foreground color.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function color256(int $color, $value = '')
@@ -244,9 +244,9 @@ class StringBuilder
 
     /**
      * Set a 256-bit background color.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function backgroundColor256(int $color, $value = '')
@@ -262,9 +262,9 @@ class StringBuilder
 
     /**
      * Add a raw string using the current format.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function raw($value)
@@ -290,9 +290,9 @@ class StringBuilder
 
     /**
      * Build the final string.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function __toString()
