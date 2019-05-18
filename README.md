@@ -41,8 +41,8 @@ echo $stringBuilder
 |`resetInvertColors()`|Resets the invert colors flag.|
 |`resetHidden()`|Resets the hidden flag.|
 |`color16(int)`|Sets the current 16-bit foreground or background color. (See `\Ansi\Color16`)|
-|`color256(int)`|Sets the current 256-bit color. (See [https://misc.flogisoft.com/bash/tip_colors_and_formatting#colors1](here) for a list of color codes.)|
-|`backgroundColor256(int)`|Sets the current 256-bit background color. (See [https://misc.flogisoft.com/bash/tip_colors_and_formatting#colors1](here) for a list of color codes.)|
+|`color256(int)`|Sets the current 256-bit color. (See [here](https://misc.flogisoft.com/bash/tip_colors_and_formatting#colors1) for a list of color codes.)|
+|`backgroundColor256(int)`|Sets the current 256-bit background color. (See [here](https://misc.flogisoft.com/bash/tip_colors_and_formatting#colors1) for a list of color codes.)|
 
 
 #### Utility Methods
@@ -55,8 +55,6 @@ echo $stringBuilder
 ### `\Ansi\Color16`
 
 The `Color16` class is a utility class for 16-bit color codes.
-
-#### Colors
 
 > Note: Each of these constants needs to be prefixed with either `FG_` when using it as a foreground color or `BG_` when using it as a background color.
 
