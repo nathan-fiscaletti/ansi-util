@@ -23,7 +23,7 @@ echo $stringBuilder
 
 ### `\Ansi\StringBuilder`
 
-> Note: Each of these functions takes an optional `string` parameter which will be added immediately after the ANSI code is applied and follow the [Fluent Design Pattern](https://en.wikipedia.org/wiki/Fluent_interface). The string builder itself implements the `__toString` magic method, and as such can be treated as a string.
+> Note: Each of these functions takes an optional `string` parameter which will be added immediately after the ANSI code is applied. They also all follow the [Fluent Design Pattern](https://en.wikipedia.org/wiki/Fluent_interface). The string builder itself implements the `__toString` magic method, and as such can be treated as a string.
 
 |Method|Result|
 |---|---|
