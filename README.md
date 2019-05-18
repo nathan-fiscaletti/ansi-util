@@ -3,7 +3,7 @@
 
 ## Usage
 
-> Note: It is not garaunteed that all of these ANSI codes will work on all terminals. See [here](https://misc.flogisoft.com/bash/tip_colors_and_formatting#terminals_compatibility) for a list of compatible terminals.
+> Note: It is not guaranteed that all of these ANSI codes will work on all terminals. See [here](https://misc.flogisoft.com/bash/tip_colors_and_formatting#terminals_compatibility) for a list of compatible terminals.
 
 ```php
 $stringBuilder = new \Ansi\StringBuilder;
