@@ -1,6 +1,12 @@
 # PHP ANSI Utility
 > Allows you to create ANSI strings with ease in PHP.
 
+[![StyleCI](https://styleci.io/repos/187390379/shield?style=flat)](https://styleci.io/repos/187390379)
+[![Total Downloads](https://poser.pugx.org/nafisc/ansi-util/downloads?format=flat)](https://packagist.org/packages/nafisc/ansi-util)
+[![Latest Stable Version](https://poser.pugx.org/nafisc/ansi-util/v/stable?format=flat)](https://packagist.org/packages/nafisc/ansi-util)
+[![Latest Unstable Version](https://poser.pugx.org/nafisc/ansi-util/v/unstable?format=flat)](https://packagist.org/packages/nafisc/ansi-util)
+[![License](https://poser.pugx.org/nafisc/spackle/license?format=flat)](https://packagist.org/packages/nafisc/ansi-util)
+
 ## Usage
 
 > Note: It is not guaranteed that all of these ANSI codes will work on all terminals. See [here](https://misc.flogisoft.com/bash/tip_colors_and_formatting#terminals_compatibility) for a list of compatible terminals.
