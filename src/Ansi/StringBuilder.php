@@ -276,9 +276,9 @@ class StringBuilder
 
     /**
      * Add a custom ANSI flag.
-     * 
+     *
      * @param string $value
-     * 
+     *
      * @return \Ansi\StringBuilder
      */
     public function ansi($value)
@@ -298,6 +298,7 @@ class StringBuilder
     public function __toString()
     {
         $this->reset();
+
         return $this->string;
     }
 }
