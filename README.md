@@ -60,6 +60,7 @@ echo $stringBuilder
 |`raw(string)`|Adds a raw string.|
 |`ansi(value)`|Escapes and appends a custom ANSI value.|
 |`stripAnsi()`|Removes all ANSI sequences from the StringBuilder.|
+|`empty()`|Empties out the StringBuilder.|
 
 ### `\Ansi\Color16`
 

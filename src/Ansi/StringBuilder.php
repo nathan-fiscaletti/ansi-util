@@ -301,6 +301,18 @@ class StringBuilder
     }
 
     /**
+     * Empties out the existing string.
+     *
+     * @return \Ansi\StringBuilder
+     */
+    public function empty()
+    {
+        $this->string = '';
+
+        return $this;
+    }
+
+    /**
      * Build the final string.
      *
      * @param string $value
