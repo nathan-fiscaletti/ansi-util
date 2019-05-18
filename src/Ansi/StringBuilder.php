@@ -295,7 +295,7 @@ class StringBuilder
      */
     public function stripAnsi()
     {
-        $this->string = \preg_replace("/\033\[[;0-9]*\m/Us", "", $this->string);
+        $this->string = \preg_replace("/\033\[[;0-9]*\m/Us", '', $this->string);
 
         return $this;
     }
